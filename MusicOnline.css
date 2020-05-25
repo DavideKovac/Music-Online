@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ruda&display=swap');
+
+body{
+    text-align: center;
+    border: 3px ;
+    background-color: black;
+
+}
+div.pagetitle {
+     font-family: 'Roboto', sans-serif;
+     font-size: 100%;
+     color: white;
+ }
+/*Back Button*/
+div.back
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position:absolute;
+    top:0;
+    left:0;
+}
+a:back
+{
+    color:white;
+    text-decoration:none;
+}
+/*Menu page css*/
+a{
+    color:white;
+    text-decoration:none;
+}
+a:guest{
+    color:grey;
+    text-decoration:none;
+}
+div.member
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+    color:white;
+}
+div.guest
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    color:grey;
+    text-decoration:underline;
+}
+/*Log-In page css */
+div.log-in_forms {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size:200% ;
+}
+input[type=submit].logsub
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color:white;
+    border: none;
+    font-size:80%;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    margin-top:10px;
+    padding: 8px 20px;
+}
+ table.login{
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+}
+ /*Register page css*/
+div.Register_forms{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size:150% ;
+}
+input[type=submit].register
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color:white;
+    border: none;
+    font-size:80%;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    margin-top:10px;
+    padding: 8px 20px;
+}
+table.register{
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+}
