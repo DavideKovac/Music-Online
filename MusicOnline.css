@@ -1,63 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ruda&display=swap');
 
 body{
+    font-family: 'Roboto', sans-serif;!important;
+    color: white;
     text-align: center;
     border: 3px ;
-    background-color: black;
+    background-color: black;!important
 
 }
 div.pagetitle {
-     font-family: 'Roboto', sans-serif;
      font-size: 100%;
      color: white;
  }
+a{
+      color:white;
+      text-decoration:none;
+  }
+.errormessage
+{
+    color:red;
+}
+
 /*Back Button*/
 div.back
 {
-    font-family: 'Roboto', sans-serif;
-    color: white;
+
     position:absolute;
     top:0;
     left:0;
 }
-a:back
-{
-    color:white;
-    text-decoration:none;
-}
+
 /*Menu page css*/
-a{
-    color:white;
-    text-decoration:none;
-}
-a:guest{
+
+.guest a{
     color:grey;
     text-decoration:none;
 }
 div.member
 {
-    font-family: 'Roboto', sans-serif;
     font-size: 200%;
-    color:white;
 }
 div.guest
 {
-    font-family: 'Roboto', sans-serif;
     font-size: 150%;
     color:grey;
     text-decoration:underline;
 }
 /*Log-In page css */
-div.log-in_forms {
-    font-family: 'Roboto', sans-serif;
-    color:white;
+div.log_in_forms {
+
     font-size:200% ;
 }
-input[type=submit].logsub
-{
-    font-family: 'Roboto', sans-serif;
-    background-color: black;
+.log_in_forms button{
+    background-color:black;
     color:white;
+    align-content:center;
     border: none;
     font-size:80%;
     margin-left:auto;
@@ -73,15 +70,13 @@ input[type=submit].logsub
 }
  /*Register page css*/
 div.Register_forms{
-    font-family: 'Roboto', sans-serif;
-    color:white;
     font-size:150% ;
 }
-input[type=submit].register
+.register button
 {
-    font-family: 'Roboto', sans-serif;
-    background-color: black;
     color:white;
+    background-color:black;
+    align-content:center;
     border: none;
     font-size:80%;
     margin-left:auto;
@@ -95,3 +90,193 @@ table.register{
     margin-right:auto;
     width:100px;
 }
+/*header css*/
+.left_header a
+{
+    text-decoration: none;
+    color:white;
+   padding-right:10px;
+}
+.left_header
+{
+    top:0;
+    left:0;
+    position:fixed;
+    display:inline-block;
+
+}
+
+.right_header
+{
+    display:inline-block;
+    top:0;
+    right:0;
+    position:fixed;
+
+}
+.log-out
+{
+    display:inline-block;
+
+}
+.log-out button
+{
+    color: white;
+    background-color: black;
+    border:none;
+}
+
+/*homepage page css*/
+.header
+{
+   text-align:center;
+    padding-top:30px;
+}
+.search_box
+{
+    width:30%;
+    height:3%;
+}
+.search button
+{
+    width:300px;
+    height:300px;
+    color:white;
+    background-color:black;
+    border: none;
+}
+
+
+/*categories css*/
+.subtitle
+{
+    text-align: left;
+}
+.subtitle a
+{
+    text-decoration:underline;
+    color:lightblue;
+    font-size:80%;
+}
+
+.cat
+{
+    float: left;
+    width:19.5%;
+    padding:2px;
+}
+.categories::after
+{
+    content:"";
+    clear: both;
+    display: table;
+}
+.cat img
+{
+max-width:80%;
+heigth:auto;
+}
+.caption
+{
+    display:block;
+}
+
+.product_info
+{
+    float: left;
+    width:19.5%;
+    padding:2px;
+}
+albums::after
+{
+    content:"";
+    clear: both;
+    display: table;
+}
+.product_info img
+{
+    max_width:80%;
+    height:auto;
+}
+/* Product page css*/
+.prod_top
+{
+    margin-top:40px;
+}
+
+.product_display
+{
+    margin-top:70px;
+}
+
+.quantity_box
+{
+    text-align: center;
+    width:7%;
+    heigth:5%;
+}
+.btn_cart
+{
+    background: black;
+    border: white;
+    color: white;
+}
+.similar_products p
+{
+    left-margin:20px;
+    margin-top:50px;
+    text-align: left;
+
+}
+.similar_products a
+{
+    text-decoration:underline;
+    color:lightblue;
+    font-size:80%;
+}
+/*form css*/
+div.forms {
+
+    font-size:150% ;
+}
+.forms input
+{
+    width:200%;
+}
+
+.forms button{
+    background-color:black;
+    color:white;
+    align-content:center;
+    border: none;
+    font-size:80%;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    margin-top:10px;
+    padding: 8px 20px;
+}
+table.form_table{
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    margin-top:50px;
+}
+.form_table input{
+
+    width:300px;
+}
+.description
+{
+    height:200px;
+    width:200%;
+    text-align:left;
+}
+/*Account Product*/
+.product_info a
+{
+    color:lightblue;
+    text-decoration:underline;
+}
+
+
