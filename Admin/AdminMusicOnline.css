@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ruda&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;!important;
+    color: white;
+    text-align: center;
+    border: 3px ;
+    background-color: black;!important
+
+}
+div.pagetitle {
+     font-size: 100%;
+     color: white;
+ }
+a{
+      color:white;
+      text-decoration:none;
+  }
+.errormessage
+{
+    color:red;
+}
+
+/*Back Button*/
+div.back
+{
+
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+/*Menu page css*/
+
+.guest a{
+    color:grey;
+    text-decoration:none;
+}
+div.member
+{
+    font-size: 200%;
+}
+div.guest
+{
+    font-size: 150%;
+    color:grey;
+    text-decoration:underline;
+}
+/*Log-In page css */
+div.log_in_forms {
+
+    font-size:200% ;
+}
+.log_in_forms button{
+    background-color:black;
+    color:white;
+    align-content:center;
+    border: none;
+    font-size:80%;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    margin-top:10px;
+    padding: 8px 20px;
+}
+ table.login{
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+}
+ /*Register page css*/
+div.Register_forms{
+    font-size:150% ;
+}
+.register button
+{
+    color:white;
+    background-color:black;
+    align-content:center;
+    border: none;
+    font-size:80%;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    margin-top:10px;
+    padding: 8px 20px;
+}
+table.register{
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+}
+/*header css*/
+.left_header a
+{
+    text-decoration: none;
+    color:white;
+   padding-right:10px;
+}
+.left_header
+{
+    top:0;
+    left:0;
+    position:fixed;
+    display:inline-block;
+
+}
+
+.right_header
+{
+    display:inline-block;
+    top:0;
+    right:0;
+    position:fixed;
+
+}
+.log-out
+{
+    display:inline-block;
+
+}
+.log-out button
+{
+    color: white;
+    background-color: black;
+    border:none;
+}
+.caption
+{
+    display:block;
+}
+
+.product_info
+{
+    float: left;
+    width:19.5%;
+    padding:2px;
+}
+albums::after
+{
+    content:"";
+    clear: both;
+    display: table;
+}
+.product_info img
+{
+    max_width:80%;
+    height:auto;
+}
+.product_display
+{
+    margin-top:70px;
+}
+.buttons
+{
+    margin-left:10px;
+    display:inline;
+}
+.search_box
+{
+    width:30%;
+    height:3%;
+    border-bottom:40px;
+}
+.search button
+{
+    width:300px;
+    height:300px;
+    color:white;
+    background-color:black;
+    border: none;
+}
